@@ -8,7 +8,20 @@
 </head>
 
 <body>
-
+    <div id="examContainer" class="container">
+        <div class="title">Second Semester Examination</div>
+        <h2 id="question" class="question">
+            Who is the best developer?
+        </h2>
+        <label class="option"><input type="radio" name="option" value="1"><span id="opt1">Afolabi</span></label>
+        <label class="option"><input type="radio" name="option" value="2"><span id="opt2">Emeka</span></label>
+        <label class="option"><input type="radio" name="option" value="3"><span id="opt3">Johnson</span></label>
+        <label class="option"><input type="radio" name="option" value="4"><span id="opt4">Laiycon</span></label>
+        <button id="nextBtn" class="next-btn">Next Question</button>
+    </div>
+    <div id="result" class="container result" style="display: none;">Result is 100</div>
+    <script src="questions.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
