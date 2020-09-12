@@ -14,16 +14,14 @@ let questions =
         option3: "Fast Loading",
         option4: "Light",
         answer: "2"
+    }, {
+        question: "What does CSS stand for?",
+        option1: "Current Style Sheets",
+        option2: "Current Sheets Style",
+        option3: "Cascading Style Sheets",
+        option4: "Cascading Sheets Style",
+        answer: "3"
     }]
-//     [
-//       3,
-//       "What does CSS stand for?",
-//       "Current Style Sheets",
-//       "Current Sheets Style",
-//       "Cascading Style Sheets",
-//       "Cascading Sheets Style",
-//       "Cascading Style Sheets"
-//     ],
 //     [
 //       4,
 //       "Which of the following statements is false?",
