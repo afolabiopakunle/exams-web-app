@@ -11,6 +11,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 80vh;
+    background-color: darkslategrey;
 }
 
 .container {
@@ -21,3 +22,51 @@ body {
 
 }
 
+.title {
+    font-size: 32px;
+    color: aqua
+}
+
+.question {
+    padding: 20px;
+    font-size: 22px;
+    border-radius: 20px;
+    margin: 10px 0 10px 0;
+    background-color: white;
+}
+
+.option {
+    width: 470px;
+    display: inline-block;
+    padding: 10px 0 10px 15px;
+    background: white;
+    border-radius: 20px;
+    margin: 10px 0 10px 10px;
+    /* color: white; */
+    
+}
+
+.option:hover {
+    background: grey;
+    
+}
+
+.next-btn {
+    border: none;
+    background: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+    color: #000;
+    border-radius: 20px;
+}
+
+.next-btn:hover {
+    background: white;
+}
+
+.result {
+    height: 100px;
+    text-align: center;
+    font-size: 32px;
+}
