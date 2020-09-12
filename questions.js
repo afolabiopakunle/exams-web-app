@@ -5,7 +5,7 @@ let questions =
         option2: "Creative Management System",
         option3: "Content Mixing System",
         option4: "Creatives Managerial System",
-        answer: option1,
+        answer: "1",
     },
     {
         question: "To make your website mobile friendly, you can make your website?",
@@ -13,7 +13,7 @@ let questions =
         option2: "Responsive",
         option3: "Fast Loading",
         option4: "Light",
-        answer: option2
+        answer: "2"
     }]
 //     [
 //       3,
